@@ -6,6 +6,8 @@ use warnings;
 use Moo;
 use IO::All -utf8;
 
+our $VERSION = 0.01;
+
 has log => (is => 'ro', required => 1);
 
 sub print {

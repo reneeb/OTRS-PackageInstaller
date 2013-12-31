@@ -15,6 +15,8 @@ use Try::Tiny;
 
 use OTRS::PackageInstaller::Logger;
 
+our $VERSION = 0.01;
+
 has otrs      => (is => 'ro', required => 1);
 has package   => (is => 'ro', required => 1);
 has manager   => (is => 'ro', lazy => 1, builder => 1);
