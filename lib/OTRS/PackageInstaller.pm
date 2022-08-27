@@ -1,5 +1,7 @@
 package OTRS::PackageInstaller;
 
+# ABSTRACT: A package installer for OTRS that resolves the dependencies.
+
 use strict;
 use warnings;
 
